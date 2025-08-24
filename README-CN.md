@@ -8,7 +8,7 @@
 ## 服务端
 假设你需要将`hexcan0`发布到`0.0.0.0:8000`，示例如下：
 ```
-./wscan hexcan0 serve ws://0.0.0.0:8000
+./wscan hexcan0 listen 0.0.0.0 8000
 ```
 
 ## 客户端

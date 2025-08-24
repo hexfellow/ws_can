@@ -8,7 +8,7 @@ This is a tool that can achieve mutual conversion between socketcan and websocke
 ## Server
 Assuming you need to publish `hexcan0` to `0.0.0.0:8000`, the example is as follows:
 ```
-./wscan hexcan0 serve ws://0.0.0.0:8000
+./wscan hexcan0 listen 0.0.0.0 8000
 ```
 
 ## Client
